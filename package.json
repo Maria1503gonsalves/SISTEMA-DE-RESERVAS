@@ -1,0 +1,43 @@
+{
+  "dependencies": {
+    "boostrap": "^2.0.0",
+    "sucrase": "^3.35.0"
+  },
+  "name": "repositorio-teste",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "@babel/core": "^7.25.9",
+    "@babel/preset-env": "^7.25.9",
+    "babel-loader": "^9.2.1",
+    "jest": "^29.7.0",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "dependencies": {
+        "boostrap": "^2.0.0"
+      }
+    },
+    "node_modules/boostrap": {
+      "version": "2.0.0",
+      "resolved": "https://registry.npmjs.org/boostrap/-/boostrap-2.0.0.tgz",
+      "integrity": "sha512-JEeFMOweKeGXEM9rt95eaVISOkluG9aKcl0jQCETOVH9jynCZxuBZe2oWgcWJpj5wqYWZl625SnW7OgHT2Ineg==",
+      "deprecated": "Package no longer supported. Contact support@npmjs.com for more info.",
+      "license": "ISC"
+    }
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "webpack --config=Scripts/config/webpack.dev.js --watch",
+    "test": "jest",
+    "build": "webpack --config webpack.config.js"
+  }
+}
