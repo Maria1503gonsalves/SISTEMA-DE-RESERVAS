@@ -40,10 +40,7 @@
       "dev": "webpack --config=Scripts/config/webpack.dev.js --watch",
       "test": "jest",
       "build": "webpack --config webpack.config.js"
-    },
-    "jest": {
-      "testMatch": ["**/__tests__/**/*.test.js", "**/?(*.)+(spec|test).[tj]s?(x)"],
-      "testPathIgnorePatterns": ["\\node_modules\\"]
     }
+     
   }
   
